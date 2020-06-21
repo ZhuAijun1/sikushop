@@ -1,0 +1,144 @@
+@charset "utf-8";
+#header{
+    height:130px;
+    position: relative;
+}
+#header .choose{
+    height:80px;
+    margin-left: 65px;
+    margin-right: 28px;
+    position: relative;
+    top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+#header .choose .language{
+    width:201px;
+    height:40px;
+    position: relative;
+    text-align: center;
+    line-height:28px;
+    font-size:12px;
+    top:15px;
+    font-family: 'INTERVOGUE-REG', 'Microsoft YaHei';
+}
+#header .choose .language .ce{
+    border-right:1px solid rgb(19, 18, 18);
+    width:100px;
+    height:28px;
+    float: left;
+    cursor: pointer;
+}
+#header .choose .language .ce:hover{
+    color: #ffb81c;
+}
+#header .choose .language .rmb{
+    width:100px;
+    height:28px;
+    float: left;
+}
+#header .choose .language .xuanze{
+    width:98px;
+    height:40px;
+    padding-top: 10px;
+    border: 1px solid black;
+    line-height: normal;
+    position: absolute;
+    display: none;
+    top:30px;
+    left: 0;
+}
+#header .choose .deng{
+    width:240px;
+    height:40px;
+    position: relative;
+    top:15px;
+    font-size: 12px;
+    font-family:Microsoft YaHei,tahoma,arial,Hiragino Sans GB;
+}
+#header .choose .deng p{
+    float: left;
+    text-align: center;
+    line-height:28px;
+    font-size:14px;
+    font-weight: 300;
+    width:80px;
+    height:28px;
+    cursor: pointer;
+} 
+#header .choose .deng p:hover{
+    color:#ffb81c ;
+}
+#header .choose .deng p:nth-child(2){
+    width:78px;
+    border-left: 1px solid rgb(77, 77, 76);
+    border-right: 1px solid rgb(77, 77, 76);
+}
+#header .choose .deng p:nth-child(3){
+    font-size: 30px;
+}
+/* 导航栏 */
+.nav{
+    background-color: #000000;  
+    height:46px;
+    display: flex;
+    padding-right: 45px;
+    z-index: 888;
+    justify-content: space-between;
+    position: relative;
+}
+.nav .daohang li{
+    height:46px;
+    text-align: center;
+    padding-left: 45px;
+    line-height: 46px;
+    font-weight: 300;
+    color: #ffb81c;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+}
+.nav .daohang li:hover{
+    color: white;
+}
+.nav .xiala{
+    width:100%;
+    /* height:200px; */
+    background-color:white;
+    position: absolute;
+    top:46px;
+    left:0;
+}
+.nav .xiala li{
+    height:200px;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
+.nav .search{
+    line-height: 46px;
+    height:46px;
+    color: #ffb81c;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav .search input{
+    height:36px;
+    width:0px;
+    /* line-height:36px; */
+    color:#ffb81c;
+    background-color: #000000;
+    /* margin-bottom: 4px; */
+    border: none;
+    border-bottom: 1px solid white;
+    float: left;
+}
+.nav .search p{
+    float: left;
+}
+#app{
+    position: fixed;
+    left:44px;
+    bottom: 160px;
+    z-index: 999;
+}

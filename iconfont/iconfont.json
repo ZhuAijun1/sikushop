@@ -1,0 +1,72 @@
+{
+  "id": "1894194",
+  "name": "siku",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12175537",
+      "name": "搜索框",
+      "font_class": "sousuokuang",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "351779",
+      "name": "向右下一页",
+      "font_class": "xiangyouxiayiye",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "970752",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "991069",
+      "name": "上一页",
+      "font_class": "shangyiye",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "4770753",
+      "name": "下三角",
+      "font_class": "xiasanjiao",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "4922802",
+      "name": "账号安全",
+      "font_class": "zhanghaoanquan",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "6756291",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "10281814",
+      "name": "账号",
+      "font_class": "zhanghao",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "10446123",
+      "name": "空心五角星",
+      "font_class": "kongxinwujiaoxing",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    }
+  ]
+}

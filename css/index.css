@@ -1,0 +1,60 @@
+@charset "utf-8";
+#content{
+    width:1200px;
+    height:1000px;
+    margin:70px auto;
+}
+.leftImg{
+    width:530px;
+    height:900px;
+    float: left;
+    position: relative;
+}
+.leftImg .topimg{
+    width:530px;
+    height:790px;
+}
+.leftImg .bottomimg{
+    width:530px;
+    height:150px;
+    position: absolute;
+    bottom:0px;
+    left: 0;
+}
+.ltimg{
+    width:650px;
+    height: 410px;
+    float: right;
+    position: relative;
+}
+.ltimg .rximg{
+    width:480px;
+    height:410px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.ltimg .lsimg{
+    width:266px;
+    height:410px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.mp4{
+    width:650px;
+    height:550px;
+    background-color: black;
+    float: right;
+    margin-top: 20px;
+}
+.mp4 #video{
+    width:100%;
+    height:100%;
+}
+.timu{
+    height:40px;
+    width:100%;
+    float: left;
+    background-color: chocolate;
+}
