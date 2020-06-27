@@ -70,7 +70,72 @@ body{
 }
 .shopdata .remai{
     height:50px;
+    position: sticky;
+    top:0;
     background-color:#ededed;
+}
+.shopdata .remai .gediao{
+    height:50px;
+    float: left;
+    width:300px;
+    margin-left: 30px;
+}
+.shopdata .remai .gediao li{
+    width:35px;
+    height:18px;
+    font-size: 13px;
+    text-align: center;
+    line-height:18px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px solid rgb(131, 131, 131);
+    cursor: pointer;
+}
+.shopdata .remai .gediao li:nth-child(1){
+    background: #e93b39;;
+    color: #fff;
+}
+.shopdata .remai .fuxuan{
+    height:50px;
+    float: left;
+    margin-left:60px;
+}
+ .shopdata .remai .fuxuan li{
+    height:18px;
+    font-size: 13px;
+    text-align: center;
+    line-height:18px;
+    float: left;
+    margin-top: 15px;
+    margin-right:10px;
+}
+.shopdata .remai .fuxuan li:nth-child(5) input{
+    width:120px;
+}
+.shopdata .remai .fuxuan li:nth-child(5) span{
+    border: 1px solid rgb(141, 141, 141);
+}
+.shopdata .remai .yema{
+    height:50px;
+    float: right;
+}
+.shopdata .remai .yema .prev,.shopdata .remai .yema .next,.shopdata .remai .yema .first,.shopdata .remai .yema .second{
+    width:20px;
+    height:18px;
+    font-size: 14px;
+    text-align: center;
+    line-height:18px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: 1px solid rgb(131, 131, 131);
+    cursor: pointer;
+}
+.shopdata .remai .yema .first{
+    background: #e93b39;
+    color: #fff;
 }
 .shopdata .xiezi{
     padding: 30px 20px 2px;
