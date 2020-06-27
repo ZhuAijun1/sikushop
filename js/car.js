@@ -26,23 +26,7 @@ $(function(){
                 <li><button class="del-shop" shop-id="${shopArray[i].pid}">删除</button></li>
             </ul>
             `
-            // str +=
-            // `
-            // <ul shop-id="${shopArray[i].pid}">
-            //     <li class="zichbox"><input type="checkbox" name="" id=""  class="zich"></li>
-            //     <li class="carimg"><img src="${shopArray[i].pimg}"><li>
-            //     <li class="carname">${shopArray[i].pname}</li>
-            //     <li class="car-pirce">${shopArray[i].pprice}</li>
-            //     <li class="ca-jisuan">
-            //         <span class="jian iconfont icon-jianhao1"></span>
-            //         <input type="text" value="${shopArray[i].pnum}" class="shop-num">
-            //         <span class="jia iconfont icon-hao"></span>
-            //     </li>
-            //     <li class="danzong">${shopArray[i].pprice*shopArray[i].pnum}</li>
-            //     <li><button class="del-shop" shop-id="${shopArray[i].pid}">删除</button></li>
-            // </ul>
-            // `
-        // 循环结束
+
         }
         $(".car-box").html(str)
         // 添加数量

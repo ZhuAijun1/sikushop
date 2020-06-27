@@ -99,10 +99,11 @@ $(function(){
             $('#jia').click(function(){
                 var i  = Number($('.shop-number').val())
                 i++
+                
                 $('.shop-number').val(i)
-        })
+            })
             // 购物车按钮事件
-            $(".addcar").off().click(function(){
+            $(".addcar").click(function(){
                 if(localStorage.getItem("userObj") == null){
                     location.replace("login.html")
                 }else{
