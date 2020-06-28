@@ -14,6 +14,7 @@ $(function(){
         str +=
         `
         <div class="swiper-slide">
+        <a href="detail.html?id=${shopArray[i].pid}">
           <li>
             <img src="${shopArray[i].pimg}">
             <p class="product-name">${shopArray[i].pname}</p>
@@ -21,9 +22,12 @@ $(function(){
             <div class="line"></div>
             <p class="product-price">￥${shopArray[i].pprice}</p>
           </li>
+          </a>
         </div>
+        
         `
       }
+      
       $(".swiper-wrapper").html(str)
       var swiper = new Swiper('.swiper-container', {
         slidesPerView: 5,
