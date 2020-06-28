@@ -42,6 +42,8 @@ $("#header .choose .deng .tui").click(function(){
 })
 $(".xingxing").click(function(){
     if(localStorage.getItem("userObj") == null){
+        alert("请先登录账号，才能查看购物车")
+        
         location.replace("login.html")
     }else{
         location.replace("car.html")
